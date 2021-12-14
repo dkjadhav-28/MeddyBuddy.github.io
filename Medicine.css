@@ -1,0 +1,640 @@
+*{
+    margin: 0px;
+
+}
+
+/* NAVIGATION PART */
+
+.Uppernav{
+    /* display: block; */
+    /* border: 2px solid black; */
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    height: 62px;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+ 
+.logodiv{
+    /* display: inline-block; */ 
+    border: 2px solid white;
+    border-radius: 15px;
+    height: 30px;
+    width: 129px;
+    overflow: hidden;
+    background-size: auto;
+}
+
+.logodiv img {
+    width: 105%;
+    height: 34px;
+}
+
+
+
+.Uppernav h3{
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.ngouser{
+    position: relative;
+    right: -613px;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 24px;
+    width: 70px;
+    background-color: rgb(43 110 28);
+    margin: 11px 10px 0px 0px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.ngouser a{
+    color: chartreuse;
+}
+
+.Lowernav{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid rgb(91, 104, 223); */
+    background-color:rgb(225 215 142) ;
+    height: 30px;
+    width: 100%;
+    
+}
+
+.navmenus{
+    font-family: cursive;
+    position: relative;
+    left: 15px;
+    font-size: large;
+    padding: 0px 8px 0px 8px;
+}
+
+
+.Lowernav a{
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+}
+
+.Lowernav a:hover {
+  color: white;
+}
+
+
+/* BODY PART */
+
+.medicineHeader h1{
+    color: rgb(24 139 23);
+    display: inline-block;
+    position: relative;
+    top: 16px;
+    left: 18px;
+    font-family: 'Noto Serif', serif;
+}
+
+.Medicine1{
+    background-color: bisque;
+    display: flex;
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 95%;
+    position: relative;
+    top: 43px;
+    left: 33px;
+    border-radius: 20px;
+    font-family: 'Noto Serif', serif;
+}
+
+.crocinImg{
+    background: url(crocinImg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    /* border: 2px solid green; */
+    height: 443px;
+    width: 449px;
+    position: relative;
+    top: 22px;
+    left: 59px;
+}
+
+.CrocinInfo{
+    position: relative;
+    top: 84px;
+    left: 155px;
+    /* border: 2px solid blue; */
+    height: 253px;
+    width: 525px;
+}
+
+.CrocinInfo p{
+    position: relative;
+    top: 10px;
+    right: 8%;
+}
+
+
+.Medicine2{
+    background-color: #a7d6a3;
+    display: flex;
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 95%;
+    position: relative;
+    top: 63px;
+    left: 33px;
+    border-radius: 20px;
+    font-family: 'Noto Serif', serif;
+}
+
+.aclokrdImg{
+    background: url(aciloc.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    /* border: 2px solid green; */
+    height: 443px;
+    width: 449px;
+    position: relative;
+    top: 22px;
+    left: 59px;
+}
+
+.aclokrdInfo{
+    position: relative;
+    top: 84px;
+    left: 155px;
+    /* border: 2px solid blue; */
+    height: 253px;
+    width: 525px;
+}
+
+.aclokrdInfo p{
+    position: relative;
+    top: 10px;
+    right: 8%;
+}
+
+
+.Medicine3{
+    background-color: bisque;
+    display: flex;
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 95%;
+    position: relative;
+    top: 83px;
+    left: 33px;
+    border-radius: 20px;
+    font-family: 'Noto Serif', serif;
+}
+
+.pantopdImg{
+    background: url(pantop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    /* border: 2px solid green; */
+    height: 443px;
+    width: 449px;
+    position: relative;
+    top: 22px;
+    left: 59px;
+}
+
+.pantopdInfo{
+    position: relative;
+    top: 84px;
+    left: 155px;
+    /* border: 2px solid blue; */
+    height: 253px;
+    width: 525px;
+}
+
+.pantopdInfo p{
+    position: relative;
+    top: 10px;
+    right: 8%;
+}
+
+
+.Medicine4{
+    background-color: #a7d6a3;
+    display: flex;
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 95%;
+    position: relative;
+    top: 103px;
+    left: 33px;
+    border-radius: 20px;
+    font-family: 'Noto Serif', serif;
+}
+
+.jalraImg{
+    background: url(jalra.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    /* border: 2px solid green; */
+    height: 443px;
+    width: 449px;
+    position: relative;
+    top: 22px;
+    left: 59px;
+}
+
+.jalraInfo{
+    position: relative;
+    top: 84px;
+    left: 155px;
+    /* border: 2px solid blue; */
+    height: 253px;
+    width: 525px;
+}
+
+.jalraInfo p{
+    position: relative;
+    top: 10px;
+    right: 8%;
+}
+
+.Medicine5{
+    background-color: bisque;
+    display: flex;
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 95%;
+    position: relative;
+    top: 123px;
+    left: 33px;
+    border-radius: 20px;
+    font-family: 'Noto Serif', serif;
+}
+
+.glycodinImg{
+    background: url(glycodin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    /* border: 2px solid green; */
+    height: 443px;
+    width: 449px;
+    position: relative;
+    top: 22px;
+    left: 59px;
+}
+
+.glycodinInfo{
+    position: relative;
+    top: 84px;
+    left: 155px;
+    /* border: 2px solid blue; */
+    height: 253px;
+    width: 525px;
+}
+
+.glycodinInfo p{
+    position: relative;
+    top: 10px;
+    right: 8%;
+}
+
+
+.Medicine6{
+    background-color: #a7d6a3;
+    display: flex;
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 95%;
+    position: relative;
+    top: 143px;
+    left: 33px;
+    border-radius: 20px;
+    font-family: 'Noto Serif', serif;
+}
+
+.paracetamolImg{
+    background: url(paracetamol.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    /* border: 2px solid green; */
+    height: 443px;
+    width: 449px;
+    position: relative;
+    top: 22px;
+    left: 59px;
+}
+
+.paracetamolInfo{
+    position: relative;
+    top: 84px;
+    left: 155px;
+    /* border: 2px solid blue; */
+    height: 253px;
+    width: 525px;
+}
+
+.paracetamolInfo p{
+    position: relative;
+    top: 10px;
+    right: 8%;
+}
+
+.Medicine7{
+    background-color: bisque;
+    display: flex;
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 95%;
+    position: relative;
+    top: 163px;
+    left: 33px;
+    border-radius: 20px;
+    font-family: 'Noto Serif', serif;
+}
+
+.avominImg{
+    background: url(avomin.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    /* border: 2px solid green; */
+    height: 443px;
+    width: 449px;
+    position: relative;
+    top: 22px;
+    left: 59px;
+}
+
+.avominInfo{
+    position: relative;
+    top: 84px;
+    left: 155px;
+    /* border: 2px solid blue; */
+    height: 253px;
+    width: 525px;
+}
+
+.avominInfo p{
+    position: relative;
+    top: 10px;
+    right: 8%;
+}
+
+
+.Medicine8{
+    background-color: #a7d6a3;
+    display: flex;
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 95%;
+    position: relative;
+    top: 183px;
+    left: 33px;
+    border-radius: 20px;
+    font-family: 'Noto Serif', serif;
+}
+
+.vicksactionImg{
+    background: url(vivks\ action\ 500.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    /* border: 2px solid green; */
+    height: 443px;
+    width: 449px;
+    position: relative;
+    top: 22px;
+    left: 59px;
+}
+
+.vicksactionInfo{
+    position: relative;
+    top: 84px;
+    left: 155px;
+    /* border: 2px solid blue; */
+    height: 253px;
+    width: 525px;
+}
+
+.vicksactionInfo p{
+    position: relative;
+    top: 10px;
+    right: 8%;
+}
+
+.Medicine9{
+    background-color: bisque;
+    display: flex;
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 95%;
+    position: relative;
+    top: 203px;
+    left: 33px;
+    border-radius: 20px;
+    font-family: 'Noto Serif', serif;
+}
+
+.doloImg{
+    background: url(dolo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    /* border: 2px solid green; */
+    height: 443px;
+    width: 449px;
+    position: relative;
+    top: 22px;
+    left: 59px;
+}
+
+.doloInfo{
+    position: relative;
+    top: 84px;
+    left: 155px;
+    /* border: 2px solid blue; */
+    height: 253px;
+    width: 525px;
+}
+
+.doloInfo p{
+    position: relative;
+    top: 10px;
+    right: 8%;
+}
+
+.Medicine10{
+    background-color: #a7d6a3;
+    display: flex;
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 95%;
+    position: relative;
+    top: 223px;
+    left: 33px;
+    border-radius: 20px;
+    font-family: 'Noto Serif', serif;
+}
+
+.AntihistaminesImg{
+    background: url(Antihistamines.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    /* border: 2px solid green; */
+    height: 443px;
+    width: 449px;
+    position: relative;
+    top: 22px;
+    left: 59px;
+}
+
+.AntihistaminesInfo{
+    position: relative;
+    top: 84px;
+    left: 155px;
+    /* border: 2px solid blue; */
+    height: 253px;
+    width: 525px;
+}
+
+.AntihistaminesInfo p{
+    position: relative;
+    top: 10px;
+    right: 8%;
+}
+
+.footer{
+    position: relative;
+    top: 250px;
+    height: 376px;
+    background-color: grey;
+}
+
+#footerImage{
+    position: relative;
+    top: 58px;
+    left: 470px;
+    border-radius: 15px;
+    height: 36px;
+    width: 145px;
+    overflow: hidden;
+    background-size: auto;
+}
+
+#footerImage img{
+    width: 105%;
+    height: 34px;
+}
+
+
+.footer h1{
+    position: relative;
+    top: 16px;
+    left: 623px;
+    font-family: cursive;
+    color: white;
+}
+
+#Bigcontiner {
+    display: flex;
+    /* border: 2px solid red; */
+    height: 40%;
+    width: 100%;
+    position: relative;
+    top: 5%;
+}
+
+#logobox1{
+    /* border: 2px solid green; */
+    height: 38%;
+    width: 6%;
+    position: relative;
+    top: 30%;
+    left: 18%;
+    background: url("linkedin2.jpeg");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#logobox2{
+    /* border: 2px solid green; */
+    height: 38%;
+    width: 5%;
+    position: relative;
+    top: 30%;
+    left: 31%;
+    background: url("emailImg.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+
+
+#logobox3{
+    /* border: 2px solid green; */
+    height: 38%;
+    width: 5%;
+    position: relative;
+    top: 30%;
+    left: 44%;
+    background: url("facebook.png");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#logobox4{
+    /* border: 2px solid green; */
+    height: 38%;
+    width: 5%;
+    position: relative;
+    top: 30%;
+    left: 56%;
+    background: url("instagram.png");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.footerName{
+    /* border: 2px solid purple; */
+    position: relative;
+    left: -184px;
+    top: 118px;
+    display: flex;
+    width: 1240px;
+    height: 20%;
+}
+
+.footerName #first{
+    position: relative;
+    top: -9px;
+    left: 178px;
+}
+
+.footerName #second{
+    position: relative;
+    top: -9px;
+    left: 290px;
+}
+
+.footerName #Thrid{
+    position: relative;
+    top: -9px;
+    left: 390px;
+}
+
+.footerName #Fourth{
+    position: relative;
+    top: -9px;
+    left: 450px;
+}

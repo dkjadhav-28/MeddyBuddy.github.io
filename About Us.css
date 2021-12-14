@@ -1,0 +1,313 @@
+*{
+    margin: 0px;
+
+}
+
+/* NAVIGATION PART */
+
+.Uppernav{
+    /* display: block; */
+    /* border: 2px solid black; */
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    height: 62px;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+ 
+.logodiv{
+    /* display: inline-block; */ 
+    border: 2px solid white;
+    border-radius: 15px;
+    height: 30px;
+    width: 129px;
+    overflow: hidden;
+    background-size: auto;
+}
+
+.logodiv img {
+    width: 105%;
+    height: 34px;
+}
+
+
+
+.Uppernav h3{
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.ngouser{
+    position: relative;
+    right: -613px;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 24px;
+    width: 70px;
+    background-color: rgb(43 110 28);
+    margin: 11px 10px 0px 0px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.ngouser a{
+    color: chartreuse;
+}
+
+.Lowernav{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid rgb(91, 104, 223); */
+    background-color:rgb(225 215 142) ;
+    height: 30px;
+    width: 100%;
+    
+}
+
+.navmenus{
+    font-family: cursive;
+    position: relative;
+    left: 15px;
+    font-size: large;
+    padding: 0px 8px 0px 8px;
+}
+
+
+.Lowernav a{
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+}
+
+.Lowernav a:hover {
+  color: white;
+}
+
+
+/* BODY PART  */
+
+.AboutHeader{
+    /* border: 2px solid red; */
+    height: 70px;
+    width: 100%;
+    font-family: 'Noto Serif', serif;
+    
+}
+
+.AboutHeader h1{
+    display: inline-block;
+    position: relative;
+    top: 15px;
+    left: 27px;
+}
+
+.About1 {
+    /* border: 2px solid red; */
+    height: 470px;
+    width: 100%;
+    display: flex;
+}
+
+
+.firstAboutImg{
+    display: inline-block;
+    /* border: 2px solid blue; */
+    height: 400px;
+    width: 632px;
+    background: url("medicine.jpg");
+    background-size: cover;
+    position: relative;
+    top: 29px;
+    left: 27px;
+}
+
+.firstAboutInfo{
+    display: inline-block;
+    /* border: 2px solid purple; */
+    height: 303px;
+    width: 540px;
+    position: relative;
+    left: 87px;
+    top: 50px;
+    font-size: larger;
+}
+
+.firstAboutInfo h1{
+    font-family: 'Noto Serif', serif;
+}
+
+.firstAboutInfo p{
+    font-family: 'Noto Serif', serif;
+    position: relative;
+    top: 10px;
+}
+
+.About2 {
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+
+.SecondAboutInfo{
+    display: inline-block;
+    /* border: 2px solid purple; */
+    height: 303px;
+    width: 540px;
+    position: relative;
+    left: 87px;
+    top: 50px;
+    font-size: larger;
+}
+
+.SecondAboutInfo h1{
+    font-family: 'Noto Serif', serif;
+}
+
+.SecondAboutInfo p{
+    font-family: 'Noto Serif', serif;
+    position: relative;
+    top: 10px;
+}
+
+
+.SecondAboutImg{
+    display: inline-block;
+    /* border: 2px solid blue; */
+    height: 400px;
+    width: 632px;
+    background: url("events.jpg");
+    background-size: cover;
+    position: relative;
+    top: 29px;
+    left: 103px;
+}
+
+.footer{
+    position: relative;
+    top: 0px;
+    height: 376px;
+    background-color: grey;
+}
+
+#footerImage{
+    position: relative;
+    top: 58px;
+    left: 470px;
+    border-radius: 15px;
+    height: 36px;
+    width: 145px;
+    overflow: hidden;
+    background-size: auto;
+}
+
+#footerImage img{
+    width: 105%;
+    height: 34px;
+}
+
+
+.footer h1{
+    position: relative;
+    top: 16px;
+    left: 623px;
+    font-family: cursive;
+    color: white;
+}
+
+#Bigcontiner {
+    display: flex;
+    /* border: 2px solid red; */
+    height: 40%;
+    width: 100%;
+    position: relative;
+    top: 5%;
+}
+
+#logobox1{
+    /* border: 2px solid green; */
+    height: 38%;
+    width: 6%;
+    position: relative;
+    top: 30%;
+    left: 18%;
+    background: url("linkedin2.jpeg");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#logobox2{
+    /* border: 2px solid green; */
+    height: 38%;
+    width: 5%;
+    position: relative;
+    top: 30%;
+    left: 31%;
+    background: url("emailImg.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+
+
+#logobox3{
+    /* border: 2px solid green; */
+    height: 38%;
+    width: 5%;
+    position: relative;
+    top: 30%;
+    left: 43%;
+    background: url("facebook.png");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#logobox4{
+    /* border: 2px solid green; */
+    height: 38%;
+    width: 5%;
+    position: relative;
+    top: 30%;
+    left: 55%;
+    background: url("instagram.png");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.footerName{
+    /* border: 2px solid purple; */
+    position: relative;
+    left: -184px;
+    top: 118px;
+    display: flex;
+    width: 1240px;
+    height: 20%;
+}
+
+.footerName #first{
+    position: relative;
+    top: -9px;
+    left: 178px;
+}
+
+.footerName #second{
+    position: relative;
+    top: -9px;
+    left: 290px;
+}
+
+.footerName #Thrid{
+    position: relative;
+    top: -9px;
+    left: 390px;
+}
+
+.footerName #Fourth{
+    position: relative;
+    top: -9px;
+    left: 450px;
+}

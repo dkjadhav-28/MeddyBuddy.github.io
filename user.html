@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="user.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+      <div class="Uppernav">
+         <div class="logodiv">
+             <img src="navlogo2.jpg" alt="">
+         </div>
+         <h3>Meddy Buddy</h3>
+         <div class="ngouser"><a href="user.html" >DONATE</a></div>
+         <div class="ngouser"><a href="ngo0.php">NGO</a></div>
+     </div>
+     <div class="Lowernav">
+         <div class="navmenus" id="navmenu1"><a href="HomePage.html">HOME</a></div>
+         <div class="navmenus" id="navmenu2"><a href="Medicine.html">MEDICINE</a></div>
+         <div class="navmenus" id="navmenu3"><a href="">ABOUT US</a></div>
+         <div class="navmenus" id="navmenu4"><a href="">CONTACT US</a></div>
+     </div>
+    </header>
+    <main><div class="bg">
+       <div class="form1">
+<form action="user2.php" method="post">
+        <div class="basDet">
+       <div class="head1"><h1>Basic Details</h1></div>
+       <div class="det">
+          <div class="col-n"><label for="fname"><h4>Name: </h4></label>
+          
+           <input type="text" name="fname" id="fname" placeholder="eg. Dhananajay Kisan Jadhav" required size="30" required maxlength="30">
+          </div>
+           <br>
+           <div class="col-a"><label for="age"><h4>Age: </h4></label>
+         
+           <input type="number" name="age" id="age" aria-required="true" min="14" maxlength="3" required size="3" placeholder="34">
+        </div>
+           <div class="col-g"><label for="gender"><h4>Gender: </h4></label>
+            
+           <select name="gender" id="gender">
+               <option value="" disabled selected>--Select--</option>
+               <option value="M">Male</option>
+               <option value="F">Female</option>
+           </select>
+        </div>
+           <br>
+           <div class="col-c"><label for="conct"><h4>Contact: </h4></label>
+           
+           <input type="tel" name="conct" id="conct" placeholder="123456789">
+           </div>
+        </div>
+           <br>
+           <div class="col-e"><label for="email_id"><h4>Email-id: </h4></label>
+           <input type="email" name="Email" id="email_id" placeholder="meddybudy@123.gmail">
+        </div> 
+           <br>
+           <div class="col-ad"><label for="add"><h4>Adress: </h4></label>
+            
+           <!-- <textarea name="add" id="add" cols="30" rows="10"></textarea> -->
+           <input type="text" name="add" id="add" size="100" width="30px"> 
+        </div>
+           <br>
+           <div class="col-p"><label for="pincode"><h4>Pincode: </h4></label>
+         
+           <input type="number" name="pincode" id="pincode" minlength="6" maxlength="6" min-size="6">
+        </div>
+        <br>
+           <!-- <div class="sub"><button id="submit" type="submit"><h4>Submit </h4></button>
+           </div>  -->
+       </div>
+
+        
+    </div>
+<!-- </form> -->
+</div>
+<!-- //medicine Detais -->
+<div class="form2">
+<!-- <form action="user2.php" method="post"> -->
+   <div class="basDet">
+      <div class="head2"><h1>Medicine Details</h1></div>
+      <div class="det">
+         <div class="col-n"><label for="mname"><h4>Name of Medicine: </h4></label>
+         
+          <input type="text" name="mname" id="mname" placeholder="eg. Aciloc-RD" required size="30" required maxlength="30">
+         </div>
+          <br>
+          <div class="col-q"><label for="qty"><h4>Quantity: </h4></label>
+          
+          <input type="number" name="qty" id="qty" aria-required="true"  min="1"  placeholder="10">
+       </div>
+       
+          <div class="col-g"><label for="type"><h4>Type: </h4></label>
+           
+          <select name="type" id="type">
+              <option value="" disabled selected>--Select--</option>
+              <option value="S">Tablet</option>
+              <option value="L">Liquid/Tonic</option>
+              <option value="I">Injection</option>
+          </select>
+       </div>
+          <br>
+          <div class="col-c"><label for="edate"><h4>expirey date: </h4></label>
+          
+          <input type="date" name="edate" id="edate" placeholder="DD-MM-YYYY">
+          </div>
+       </div>
+          <br>
+          <div class="col-e"><label for="cname"><h4>Company-name: </h4></label>
+          <input type="text" name="cname" id="cname" placeholder="Cipla, SunPharm..etc(optional),">
+       </div> 
+          <br>
+          <div class="col-ad"><label for="note"><h4>Note: </h4></label>
+           
+          <!-- <textarea name="add" id="add" cols="30" rows="10"></textarea> -->
+          <input type="text" name="note" id="note" size="100" width="30px" placeholder="if Any  like medicine used for, contents etc..."> 
+       </div>
+          <br>
+          <div class="col-p"><label for="code"><h4>Code: </h4></label>
+        
+          <input type="number" name="code" id="code" minlength="6" maxlength="6" min-size="6">
+       </div>
+       <br>
+          <div class="sub"><button id="submit" type="submit" onclick="myFunction()"><h4>Submit </h4></button>
+            <script>
+               function myfunction() {
+                  alert("Medicines Doneted Successfully, Thank you!!!")
+               }
+            </script>
+          </div> 
+      </div>
+</form>
+</div>
+</div>
+    </main>
+    <footer>
+      <div class="footer">
+         <div id="footerImage">
+             <img src="navlogo2.jpg" alt="">
+         </div>
+         <h1>Meddy Buddy</h1>
+         <div id="Bigcontiner">
+             <div id="logobox1"></div>
+             <div id="logobox2"></div>
+             <div id="logobox3"></div>
+             <div id="logobox4"></div>
+             <div class="footerName">
+                 <h1 id="first">linkedin</h1>
+                 <h1 id="second">Email</h1>
+                 <h1 id="Thrid">Facebook</h1>
+                 <h1 id="Fourth">Instagram</h1>
+             </div>
+         </div>
+     </div>
+    </footer>
+</body>
+</html>
